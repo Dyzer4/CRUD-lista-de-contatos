@@ -1,0 +1,52 @@
+@import url(./variaveis.css);
+
+*{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+}
+
+.login {
+    background-color: var(--caixa-principal);
+    margin: 20% 30%;
+    border: 1px dashed rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    background-color: rgba(240, 248, 255, 0);
+    color: var(--title-color);
+    font-size: var(--title-size);
+}
+
+.form-login {
+    background-color: rgba(240, 248, 255, 0);
+    
+    width: 50%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+label {
+    background-color: rgba(240, 248, 255, 0);
+    font-size: var(--text-size);
+}
+
+input {
+    background-color: white;
+    border-radius: 5px;
+    height: 100px;
+}
+
+button {
+    margin: 20%;
+    border-radius: 5px;
+    font-size: var(--text-size);
+
+}
