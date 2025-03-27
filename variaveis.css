@@ -6,3 +6,11 @@
     --title-size: 64px;
     --text-size: 20px;
 }
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
